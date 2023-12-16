@@ -1,0 +1,74 @@
+nav {
+	height: calc(20vh + 10px);
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.logoContainer {
+	padding: 0;
+	width: 10vh;
+	margin: 0 auto;
+	aspect-ratio: 1/1;
+	height: 10vh;
+}
+
+.logoContainer img {
+	width: 10vh;
+	object-fit: contain;
+}
+
+.linkContainer {
+	padding: 0 1vw;
+	width: 100vw;
+	height: 10vh;
+	display: grid;
+	grid-template-columns: repeat(4, auto);
+	align-content: stretch;
+	align-items: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.linkContainer * {
+	width: 20vw;
+	text-align: center;
+	text-decoration: none;
+	background-color: #b9cfd4;
+	height: 5vh;
+	max-height: 5vh;
+	line-height: 2vh;
+	border: none;
+}
+
+.linkContainer :first-child {
+	border-top-left-radius: 30px;
+}
+
+.linkContainer :last-child {
+	border-bottom-right-radius: 30px;
+}
+
+main {
+	margin-top: calc(20vh);
+}
+
+.articleContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	scrollbar-width: auto;
+	scrollbar-color: #a5243d #00000000;
+}
+
+article {
+	width: 45vw;
+	height: 40vh;
+}
+
+footer {
+	width: 100vw;
+}
