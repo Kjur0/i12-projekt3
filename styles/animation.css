@@ -26,3 +26,11 @@
 	display: block;
 	width: 100%;
 }
+
+#small {
+	font-size: 0.1vh;
+	text-align: center;
+	opacity: 0.25;
+	display: block;
+	margin: 0 auto;
+}
