@@ -97,6 +97,85 @@ article h2 {
 	color: #a5243d;
 	font-variant: small-caps;
 	background-color: #b4829180;
+	z-index: 10;
+}
+
+article img {
+	height: 30vh;
+	width: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	border-top-left-radius: 3vh;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 0.5vh solid #a5243d;
+}
+
+table caption {
+	font-size: 2.5vh;
+	font-weight: 600;
+	text-align: center;
+	color: #a5243d;
+	font-variant: small-caps;
+	color: #a5243d;
+	border: none;
+}
+
+table * {
+	border: 0.25vh solid #a5243d;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table th {
+	background-color: #a5243d;
+	color: #cee0dc;
+}
+
+table tr:nth-child(even) {
+	background-color: #b4829180;
+}
+
+table tr:nth-child(odd) {
+	background-color: #b48291;
+}
+
+form {
+	text-align: center;
+	line-height: 3vh;
+	font-size: 2vh;
+}
+
+select {
+	display: inline-block;
+	height: 3vh;
+	background-color: #cee0dc00;
+	border: none;
+	border-bottom: 0.25vh solid #a5243d;
+	text-align: center;
+	transition: background-color 0.5s ease-in-out;
+}
+
+select:focus {
+	border-radius: 1vh;
+	outline: none;
+	border-bottom: none;
+	background-color: #b4829180;
+}
+
+input[type="submit"] {
+	height: 5vh;
+	width: 10vw;
+	margin-top: 0.5vh;
+	background-color: #a5243d;
+	color: #cee0dc;
+	border: none;
+	border-radius: 1vh;
+	padding: 0 1vw;
 }
 
 footer {

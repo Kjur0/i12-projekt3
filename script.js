@@ -10,7 +10,6 @@ $(() => {
 	matchMedia("(min-width: 600px) and (max-width: 1200px)").addEventListener = mediaUpdate
 	matchMedia("(min - width: 1200px)").onchange = mediaUpdate
 
-
 	mediaUpdate()
 })
 
@@ -112,5 +111,4 @@ const vw = (n) => n * (Math.max(document.documentElement.clientWidth, innerWidth
 
 const vh = (n) => n * (Math.max(document.documentElement.clientHeight, innerHeight) / 100)
 
-const media = () =>
-	matchMedia("(max-width: 600px)").matches ? 'mobile' : matchMedia("(min-width: 600px) and (max-width: 1200px)").matches ? 'tablet' : matchMedia("(min - width: 1200px)") ? 'desktop' : null
+const media = () => matchMedia("(max-width: 600px)").matches ? 'mobile' : matchMedia("(min-width: 600px) and (max-width: 1200px)").matches ? 'tablet' : matchMedia("(min - width: 1200px)") ? 'desktop' : null
