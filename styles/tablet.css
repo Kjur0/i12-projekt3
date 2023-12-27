@@ -1,4 +1,4 @@
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 600px) and (max-width: 1199px) {
 	nav {
 		height: calc(20vh + 10px);
 		width: 100vw;
