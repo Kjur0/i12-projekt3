@@ -39,7 +39,8 @@
 		background-color: #b9cfd4;
 		height: 5vh;
 		max-height: 5vh;
-		line-height: 2vh;
+		font-size: 1.7vw;
+		line-height: 1.7vw;
 		border: none;
 	}
 
